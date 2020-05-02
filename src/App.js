@@ -22,7 +22,7 @@ class App extends React.Component{
         const filtered = this.state.robots.filter(robots =>{
             return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
         })
-        console.log(filtered);
+        
         return(
         <div className="tc">
         <h1>Robofriends</h1>
